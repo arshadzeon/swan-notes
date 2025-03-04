@@ -74,7 +74,7 @@ export default function Navbar() {
             </Link>
             <Link 
               href="#" 
-              className="bg-gradient-to-r from-blue-400 to-blue-700 text-white text-sm px-5 py-2.5 rounded-lg font-medium
+              className="bg-gradient-to-r from-blue-600 to-blue-700 text-white text-sm px-5 py-2.5 rounded-lg font-medium
                          shadow-sm transition-all duration-300 hover:shadow-md hover:from-blue-500 hover:to-blue-600"
             >
               Get Started
