@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-gray-900/95 to-gray-800/95 backdrop-blur-md border-b border-gray-700 py-4">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-950 to-blue-900 backdrop-blur-3xl border-b border-gray-700 py-4">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -74,7 +74,7 @@ export default function Navbar() {
             </Link>
             <Link 
               href="#" 
-              className="bg-gradient-to-r from-blue-600 to-blue-700 text-white text-sm px-5 py-2.5 rounded-lg font-medium
+              className="bg-gradient-to-r from-blue-400 to-blue-700 text-white text-sm px-5 py-2.5 rounded-lg font-medium
                          shadow-sm transition-all duration-300 hover:shadow-md hover:from-blue-500 hover:to-blue-600"
             >
               Get Started

@@ -29,11 +29,11 @@ export default function Home() {
         <div className="absolute top-1/3 right-1/4 w-8 h-8 border border-blue-200/30 rounded-lg rotate-12 animate-float"></div>
         <div className="absolute bottom-1/4 left-1/3 w-6 h-6 border border-purple-200/30 rounded-full animate-float" style={{ animationDelay: '1s' }}></div>
         
-        <div className="container mx-auto max-w-6xl relative">
+        <div className="container mx-auto max-w-6xl relative pt-5">
           <div className="flex flex-col items-center text-center mb-8">
             <div className="inline-block bg-gradient-to-r from-blue-50 to-purple-50 backdrop-blur-sm px-4 py-1.5 rounded-full mb-5 border border-blue-100/50 shadow-sm">
               <span className="text-sm font-medium text-blue-600 flex items-center">
-                <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
+                <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse "></span>
                 Introducing SwanNotes AI
               </span>
             </div>
@@ -389,7 +389,7 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Feature 1 - Updated to match pricing cards */}
+            {/* Feature 1 - Improved text contrast */}
             <div className="group relative bg-gradient-to-br from-gray-800/80 to-gray-900/80 rounded-lg p-8 backdrop-blur-sm border border-blue-500/30 hover:border-blue-400/50 transition-all duration-500">
               {/* Futuristic corner accents */}
               <div className="absolute -top-px -left-px w-6 h-6">
@@ -423,43 +423,44 @@ export default function Home() {
                   <div className="absolute -right-1 -bottom-1 w-3 h-3 bg-blue-400 rounded-sm rotate-45 transform-gpu opacity-80"></div>
                 </div>
                 
-                {/* Feature title with animated underline - updated for dark theme */}
-                <h3 className="text-xl font-medium text-white tracking-tight mb-4 relative inline-block">
+                {/* Feature title - Increased brightness with shadow for better contrast */}
+                <h3 className="text-xl font-medium text-white tracking-tight mb-4 relative inline-block drop-shadow-sm">
                   AI-Powered Insights
                   <span className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-blue-500/0 via-blue-400/80 to-blue-500/0 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></span>
                 </h3>
                 
-                <p className="text-gray-300 mb-6 font-light leading-relaxed">
+                {/* Description text - Changed from gray-300 to white with reduced opacity for better contrast */}
+                <p className="text-white/90 mb-6 font-light leading-relaxed">
                   Our advanced AI analyzes your notes to extract key insights, identify patterns, and suggest connections.
                 </p>
                 
-                {/* Futuristic list items - updated for dark theme */}
+                {/* List items - Changed from gray-300 to white with reduced opacity */}
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <span className="flex-shrink-0 w-5 h-5 rounded-sm bg-gray-800 border border-blue-400/50 flex items-center justify-center mr-3 mt-0.5">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-sm"></span>
                     </span>
-                    <span className="text-sm text-gray-300 font-light">Automatic summarization</span>
+                    <span className="text-sm text-white/90 font-light">Automatic summarization</span>
                   </li>
                   <li className="flex items-start">
                     <span className="flex-shrink-0 w-5 h-5 rounded-sm bg-gray-800 border border-blue-400/50 flex items-center justify-center mr-3 mt-0.5">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-sm"></span>
                     </span>
-                    <span className="text-sm text-gray-300 font-light">Smart topic clustering</span>
+                    <span className="text-sm text-white/90 font-light">Smart topic clustering</span>
                   </li>
                   <li className="flex items-start">
                     <span className="flex-shrink-0 w-5 h-5 rounded-sm bg-gray-800 border border-blue-400/50 flex items-center justify-center mr-3 mt-0.5">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-sm"></span>
                     </span>
-                    <span className="text-sm text-gray-300 font-light">Personalized recommendations</span>
+                    <span className="text-sm text-white/90 font-light">Personalized recommendations</span>
                   </li>
                 </ul>
                 
-                {/* Futuristic link - updated for dark theme */}
-                <a href="#" className="inline-flex items-center text-blue-300 text-sm font-medium group/link">
+                {/* Link - Changed to brighter blue with subtle glow */}
+                <a href="#" className="inline-flex items-center text-blue-200 text-sm font-medium group/link drop-shadow-sm">
                   <span className="relative overflow-hidden">
                     <span className="relative z-10 font-mono tracking-wide">VIEW.DETAILS</span>
-                    <span className="absolute bottom-0 left-0 w-full h-px bg-blue-400 transform origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-300"></span>
+                    <span className="absolute bottom-0 left-0 w-full h-px bg-blue-300 transform origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-300"></span>
                   </span>
                   <svg className="w-4 h-4 ml-1.5 transform group-hover/link:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -471,7 +472,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 via-blue-500/0 to-blue-400/20 opacity-100 transition-opacity duration-700 rounded-lg"></div>
             </div>
             
-            {/* Feature 2 - Updated to match dark theme */}
+            {/* Feature 2 - Improved text contrast */}
             <div className="group relative bg-gradient-to-br from-gray-800/80 to-gray-900/80 rounded-lg p-8 backdrop-blur-sm border border-blue-500/30 hover:border-blue-400/50 transition-all duration-500">
               {/* Futuristic corner accents */}
               <div className="absolute -top-px -left-px w-6 h-6">
@@ -506,12 +507,12 @@ export default function Home() {
                 </div>
                 
                 {/* Feature title with animated underline - updated for dark theme */}
-                <h3 className="text-xl font-medium text-white tracking-tight mb-4 relative inline-block">
+                <h3 className="text-xl font-medium text-white tracking-tight mb-4 relative inline-block drop-shadow-sm">
                   Seamless Sync
                   <span className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-blue-500/0 via-blue-400/80 to-blue-500/0 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></span>
                 </h3>
                 
-                <p className="text-gray-300 mb-6 font-light leading-relaxed">
+                <p className="text-white/90 mb-6 font-light leading-relaxed">
                   Access your notes from any device with real-time synchronization and offline capabilities.
                 </p>
                 
@@ -521,27 +522,27 @@ export default function Home() {
                     <span className="flex-shrink-0 w-5 h-5 rounded-sm bg-gray-800 border border-blue-400/50 flex items-center justify-center mr-3 mt-0.5">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-sm"></span>
                     </span>
-                    <span className="text-sm text-gray-300 font-light">Real-time collaboration</span>
+                    <span className="text-sm text-white/90 font-light">Real-time collaboration</span>
                   </li>
                   <li className="flex items-start">
                     <span className="flex-shrink-0 w-5 h-5 rounded-sm bg-gray-800 border border-blue-400/50 flex items-center justify-center mr-3 mt-0.5">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-sm"></span>
                     </span>
-                    <span className="text-sm text-gray-300 font-light">Offline access</span>
+                    <span className="text-sm text-white/90 font-light">Offline access</span>
                   </li>
                   <li className="flex items-start">
                     <span className="flex-shrink-0 w-5 h-5 rounded-sm bg-gray-800 border border-blue-400/50 flex items-center justify-center mr-3 mt-0.5">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-sm"></span>
                     </span>
-                    <span className="text-sm text-gray-300 font-light">Version history</span>
+                    <span className="text-sm text-white/90 font-light">Version history</span>
                   </li>
                 </ul>
                 
                 {/* Futuristic link - updated for dark theme */}
-                <a href="#" className="inline-flex items-center text-blue-300 text-sm font-medium group/link">
+                <a href="#" className="inline-flex items-center text-blue-200 text-sm font-medium group/link drop-shadow-sm">
                   <span className="relative overflow-hidden">
                     <span className="relative z-10 font-mono tracking-wide">VIEW.DETAILS</span>
-                    <span className="absolute bottom-0 left-0 w-full h-px bg-blue-400 transform origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-300"></span>
+                    <span className="absolute bottom-0 left-0 w-full h-px bg-blue-300 transform origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-300"></span>
                   </span>
                   <svg className="w-4 h-4 ml-1.5 transform group-hover/link:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -553,7 +554,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 via-blue-500/0 to-blue-400/20 opacity-100 transition-opacity duration-700 rounded-lg"></div>
             </div>
             
-            {/* Feature 3 - Updated to match dark theme */}
+            {/* Feature 3 - Improved text contrast */}
             <div className="group relative bg-gradient-to-br from-gray-800/80 to-gray-900/80 rounded-lg p-8 backdrop-blur-sm border border-blue-500/30 hover:border-blue-400/50 transition-all duration-500">
               {/* Futuristic corner accents */}
               <div className="absolute -top-px -left-px w-6 h-6">
@@ -588,12 +589,12 @@ export default function Home() {
                 </div>
                 
                 {/* Feature title with animated underline - updated for dark theme */}
-                <h3 className="text-xl font-medium text-white tracking-tight mb-4 relative inline-block">
+                <h3 className="text-xl font-medium text-white tracking-tight mb-4 relative inline-block drop-shadow-sm">
                   Advanced Security
                   <span className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-blue-500/0 via-blue-400/80 to-blue-500/0 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></span>
                 </h3>
                 
-                <p className="text-gray-300 mb-6 font-light leading-relaxed">
+                <p className="text-white/90 mb-6 font-light leading-relaxed">
                   Your data is protected with end-to-end encryption and advanced security features.
                 </p>
                 
@@ -603,27 +604,27 @@ export default function Home() {
                     <span className="flex-shrink-0 w-5 h-5 rounded-sm bg-gray-800 border border-blue-400/50 flex items-center justify-center mr-3 mt-0.5">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-sm"></span>
                     </span>
-                    <span className="text-sm text-gray-300 font-light">End-to-end encryption</span>
+                    <span className="text-sm text-white/90 font-light">End-to-end encryption</span>
                   </li>
                   <li className="flex items-start">
                     <span className="flex-shrink-0 w-5 h-5 rounded-sm bg-gray-800 border border-blue-400/50 flex items-center justify-center mr-3 mt-0.5">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-sm"></span>
                     </span>
-                    <span className="text-sm text-gray-300 font-light">Two-factor authentication</span>
+                    <span className="text-sm text-white/90 font-light">Two-factor authentication</span>
                   </li>
                   <li className="flex items-start">
                     <span className="flex-shrink-0 w-5 h-5 rounded-sm bg-gray-800 border border-blue-400/50 flex items-center justify-center mr-3 mt-0.5">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-sm"></span>
                     </span>
-                    <span className="text-sm text-gray-300 font-light">GDPR compliance</span>
+                    <span className="text-sm text-white/90 font-light">GDPR compliance</span>
                   </li>
                 </ul>
                 
                 {/* Futuristic link - updated for dark theme */}
-                <a href="#" className="inline-flex items-center text-blue-300 text-sm font-medium group/link">
+                <a href="#" className="inline-flex items-center text-blue-200 text-sm font-medium group/link drop-shadow-sm">
                   <span className="relative overflow-hidden">
                     <span className="relative z-10 font-mono tracking-wide">VIEW.DETAILS</span>
-                    <span className="absolute bottom-0 left-0 w-full h-px bg-blue-400 transform origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-300"></span>
+                    <span className="absolute bottom-0 left-0 w-full h-px bg-blue-300 transform origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-300"></span>
                   </span>
                   <svg className="w-4 h-4 ml-1.5 transform group-hover/link:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -694,10 +695,10 @@ export default function Home() {
               {/* Plan header */}
               <div className="p-6 border-b border-blue-500/20">
                 <h3 className="text-xl font-medium text-white tracking-tight mb-1">Free</h3>
-                <p className="text-gray-400 text-sm font-light mb-4">Perfect for getting started</p>
+                <p className="text-gray-300 text-sm font-light mb-4">Perfect for getting started</p>
                 <div className="flex items-baseline">
                   <span className="text-4xl font-bold text-white">$0</span>
-                  <span className="text-gray-400 ml-1 font-light">/month</span>
+                  <span className="text-gray-300 ml-1 font-light">/month</span>
                 </div>
               </div>
               
@@ -708,7 +709,7 @@ export default function Home() {
                     <span className="flex-shrink-0 w-5 h-5 rounded-sm bg-gray-800 border border-blue-400/50 flex items-center justify-center mr-3 mt-0.5">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-sm"></span>
                     </span>
-                    <span className="text-sm text-gray-300 font-light">Up to 5 documents</span>
+                    <span className="text-sm text-gray-200 font-light">Up to 5 documents</span>
                   </li>
                   <li className="flex items-start">
                     <span className="flex-shrink-0 w-5 h-5 rounded-sm bg-gray-800 border border-blue-400/50 flex items-center justify-center mr-3 mt-0.5">
@@ -963,7 +964,7 @@ export default function Home() {
               <div className="p-6">
                 <h3 className="text-lg font-medium text-white mb-4">Can I try SwanNotes before paying?</h3>
                 <div className="pt-2">
-                  <p className="text-gray-300 font-light leading-relaxed">
+                  <p className="text-gray-200 font-light leading-relaxed">
                     Yes! We offer a free tier that lets you explore the basic features. You can also start a 14-day trial of our Pro plan with no credit card required.
                   </p>
                 </div>
